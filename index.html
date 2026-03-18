@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Student_Management</title>
+</head>
+<body>
+    <section class="dashboard">
+        <header class="head">
+           <span class="Logo">Students Management</span>
+           <button id="addBtn" class="addBtn">+ Add a student</button>
+        </header> 
+
+        <section class="sect0">
+            <div  id="totalStudent" class="total">0 Etudiants</div>
+            <div class="search">
+               <img src="/image/search_24dp_000000_FILL0_wght400_GRAD0_opsz24.svg" alt="icon">
+               <input type="text" id="searchInput" class="inputBtn" placeholder="Enter your search here ....">
+            </div>    
+        </section>
+
+     
+        <!-- Modal -->
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+              <span id="closeModal" class="close">&times;</span>
+              <form id="form">
+                <div class="new">
+                    <h5>Add a New Student</h5>
+                    <p>Remplissez les infos de l'étudiant</p>
+                </div>
+
+                <div class="contain">
+                    <label>Name:</label>
+                    <input id="name" type="text" placeholder="Enter the name here..">
+                </div>
+
+                <div class="contain">
+                    <label>Surname:</label>
+                    <input id="surname" type="text" placeholder="Enter the surname here..">
+                </div>
+
+                <div class="contain">
+                    <label>Age:</label>
+                    <input id="age" type="number" placeholder="Enter the age here..">
+                </div>
+
+                <div class="contain">
+                    <label>Field:</label>
+                    <input id="field" type="text" placeholder="Enter the field here..">
+                </div>
+
+                <div class="bouton">
+                    <button type="button" id="btnAnnul">Annuler</button>
+                    <button type="submit" id="btn">Submit</button>
+                </div>
+             </form>
+            </div>
+        </div>  
+        
+        
+        <section class="tableau">
+            <table>
+                <thead>
+                    <tr>
+                       <th>N°</th>
+                       <th>Name</th>
+                       <th>Surname</th>
+                       <th>Age</th>
+                       <th>Domain</th>
+                       <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="studentTable"> 
+                    <!-- liste des etudiants ici -->
+                     
+                 </tbody>
+            </table>
+        </section>
+      
+   </section>
+
+   
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
