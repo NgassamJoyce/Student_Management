@@ -1,7 +1,7 @@
-🎓 Students Management
+### 🎓 Students Management ###
 <img width="1247" height="646" alt="Capture d’écran du 2026-03-18 11-35-08" src="https://github.com/user-attachments/assets/1a3f5476-4595-4c02-ac8d-6e33a65809e1" />
 
-📖 Description
+### 📖 Description ###
 
 This application allows small schools to manage their students in a simple and reliable way.
 It allows users to add a new student, edit student information, delete a student, and display the list of registered students.
@@ -11,7 +11,7 @@ In this application, it is also possible to search for a student by name, surnam
 
 <img width="1247" height="646" alt="Capture d’écran du 2026-03-18 11-36-36" src="https://github.com/user-attachments/assets/d5349dd6-61ce-48b0-bbda-aa3f55fa30a2" />
 
-Installation
+### Installation
 
 . Open your terminal
 
@@ -24,11 +24,17 @@ Installation
 
 . The application will open in your browser and you can start registering students.
 
-Languages & Technologies
+### Languages & Technologies:
+<div align="left">
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"/>
+   <img width="12" />
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"/>
+   <img width="12" />
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="js logo"/>
+   <img width="12" />
+</div>  
 
-
-
-Features
+### Features
 
 .Click on "Add a student" and a form will appear. Fill in the student information, then click "Submit" to save the student or "Cancel" to cancel the registration.
 
